@@ -6,7 +6,7 @@ Swift based custom progress bar
         pgBar.draw()
         pgBar.progress(incremented: 190)
         
-Add the `pgBar` whereever you like, it will be positioned in `x=0` and `y=0` of the parent view.
+Add the `pgBar` wherever you like, it will be positioned at `x=0` and `y=0` of the parent view.
 
 # Screenshot
 
