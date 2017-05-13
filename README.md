@@ -3,10 +3,12 @@ Swift based custom progress bar
 
 # How to use it
         var pgBar = CustomProgressBar(width: 200, height: 10)
-        pgBar.draw()
+        pgBar.configure()
         pgBar.progress(incremented: 190)
         
 Add the `pgBar` wherever you like, it will be positioned at `x=0` and `y=0` of the parent view.
+
+An example project using CustomProgressBar: https://github.com/utkarsh2012/ProgressBarTest
 
 # Screenshot
 
