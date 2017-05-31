@@ -26,7 +26,7 @@ class CustomProgressBar: UIView {
             self.color = isColor
         }
         
-        if let isProgressColor = color {
+        if let isProgressColor = progressColor {
             self.progressColor = isProgressColor
         }
         
